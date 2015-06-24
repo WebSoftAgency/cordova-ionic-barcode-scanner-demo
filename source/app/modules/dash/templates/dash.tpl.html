@@ -1,0 +1,16 @@
+<ion-view>
+    <ion-content>
+        <div class="row">
+            <div class="col text-center">
+                <button class="button button-positive" ng-click="startScaner()">
+                    Start scanning
+                </button>
+            </div>
+        </div>
+        <div ng-show="href.length != 0" class="row">
+            <div class="col text-center">
+                <a class="button button-positive" ng-href="{{href}}">{{ href }}</a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
